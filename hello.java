@@ -1,5 +1,7 @@
 public class hello {
     public static void main(String[] args) {
-        System.out.print("Hello World!"); // Display the string.
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
     }
 }
